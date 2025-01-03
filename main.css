@@ -1,0 +1,77 @@
+/* Basic Styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #282828;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: #007bff; /* Blue call-to-action button */
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 0;
+}
+
+.features h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ... add more styles as needed ... */
